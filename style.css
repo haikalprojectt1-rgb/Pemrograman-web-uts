@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.caption {
+  color: #555;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.desc {
+  color: #666;
+  margin: 10px 0 25px;
+  font-size: 15px;
+}
+
+.contact h2,
+.skills h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.skills {
+  margin-top: 25px;
+}
+
+.skill-item {
+  background: #e6e6e6;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-size: 15px;
+  color: #333;
+  transition: background 0.3s;
+}
+
+.skill-item:hover {
+  background: #dcdcdc;
+}
+
+/* Responsif */
+@media (max-width: 480px) {
+  .container {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .skill-item {
+    font-size: 14px;
+  }
+}
